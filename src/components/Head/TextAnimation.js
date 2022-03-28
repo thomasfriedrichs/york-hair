@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnimationWrap, LetterWrap, TextWrap, FadeUpIn} from './HeadElement';
+import { AnimationWrap, LetterWrap, TextWrap, FadeUpIn} from './HeadStyles';
 
 const TextAnimation = () => {
   const text = 'ROLAND YORK HAIR'.split('');

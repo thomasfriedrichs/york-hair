@@ -1,4 +1,6 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { 
+  keyframes 
+} from 'styled-components';
 
 const animation = keyframes` 
   100% { opacity: 1; }
@@ -24,13 +26,13 @@ const FadeInUpAnimationRight = keyframes`
 
 export const HeadWrap = styled.div`
   height: 100vh;
-  background-color: pink; 
   z-index: 0;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 export const TextWrap = styled.h1`
-  padding: 50vh 10%;
   height: 10vh;
   width: 100%;
   text-align: center;
@@ -58,8 +60,7 @@ export const LetterWrap = styled.span`
 `
 
 export const AnimationWrap = styled.div` 
-  height: 100vh;
-  width: 75vw;
+  width: 100%;
   z-index: 1;
 `
 

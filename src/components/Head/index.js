@@ -1,15 +1,19 @@
 import React from 'react';
-import { HeadWrap, TextWrap } from './HeadElement';
-import { NavWrap } from './NavElement';
+import { 
+  HeadWrap, 
+  TextWrap 
+} from './HeadStyles';
 import TextAnimation from './TextAnimation';
+import ParallaxScroll from './../ParallaxScroll';
+import Card from './../Card';
 
-const Head = () => {
+const Head = ({ id }) => {
   return (
     <>
-      <HeadWrap>  
-        <NavWrap>
-        </NavWrap>
+      <HeadWrap id={id}>
+        <ParallaxScroll parallaxY={0.3}>
           <TextAnimation/>
+        </ParallaxScroll>
       </HeadWrap>  
     </>
   )
