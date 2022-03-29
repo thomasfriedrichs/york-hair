@@ -6,7 +6,34 @@ export const AboutWrap = styled.div`
   justify-content: center;
 `
 
-export const OpaqueContainer = styled.div`
+export const Img = styled.img` 
+  width: 80%;
+  height: 80%;
+`
+
+export const OpaqueContainerLeft = styled.div`
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  width: 30em;
+  min-height: 16em;
+  height: fit-content;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 60px;
+  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, 
+    rgba(0, 0, 0, 0.06) 5px 5px 10px;
+  position: relative;
+  margin: 5%;
+  margin-bottom: 10%;
+`
+
+export const OpaqueContainerRight = styled.div`
   background-image: linear-gradient(
     to bottom right,
     rgba(255, 255, 255, 0.2) 0%,
@@ -26,4 +53,4 @@ export const OpaqueContainer = styled.div`
   position: relative;
   margin: 5%;
   margin-bottom: 10%;
-`;
+`

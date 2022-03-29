@@ -25,7 +25,7 @@ const ParallaxScroll = ({ children, parallaxY }) => {
   return (
     <ParallaxContainer
       style={{
-        transform: `translateY(-${scrollPosition.scrollY / 10 * parallaxVal}px)`
+        transform: `translateY(-${scrollPosition.scrollY / 1.1 * parallaxVal}px)`
       }}
     >
       {children}

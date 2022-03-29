@@ -5,7 +5,7 @@ export const GalleryContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4em 0;
+  padding-top: 15em;
 `;
 
 export const GalleryGrid = styled.div`
@@ -20,7 +20,7 @@ export const GalleryRow = styled.div`
 `;  
 
 export const CardWrapper = styled.div`
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: ${ props => props.reverse ? 'flex-end' : 'flex-start' };
 `;

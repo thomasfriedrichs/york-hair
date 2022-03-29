@@ -17,10 +17,11 @@ export const NavWrap = styled.div`
 `
 export const LogoWrap = styled.div` 
   width: 45%;
+
   @media screen and (orientation: landscape) {
     width: 100%;
     height: 30vh;
-    }
+  }
 `
 
 export const Logo = styled.img`
@@ -29,9 +30,8 @@ export const Logo = styled.img`
   width: 100%;
 
   @media screen and (orientation: landscape) {
-    /* max-width: 21.5em; */
     width: 100%;
-    }
+  }
 `
 
 export const Link = styled.a` 
@@ -46,11 +46,12 @@ export const SelectionWrap = styled.div`
   flex-direction: row;
   justify-content: space-around;
   padding-top: 5%;
+  padding-right: 5%;
 
   @media screen and (orientation: landscape) {
-
     flex-direction: column;
     gap: 3vh;
+    padding-bottom: 10%;
   }
 `
 
@@ -67,7 +68,6 @@ export const ItemWrap = styled.div`
 export const Item = styled.p` 
   font-size: .6rem;
   font-weight: bold;
-  /* padding-top: 5%; */
 
   @media screen and (orientation: landscape) {
     letter-spacing: 0.1em;

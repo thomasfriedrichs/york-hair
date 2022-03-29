@@ -10,35 +10,35 @@ import image8 from './8.svg';
 const images = [
   {
     link: image1,
-    parallaxY: 0.25,
+    parallaxY: 0.1,
   },
   {
     link: image2,
-    parallaxY: 0.33,
+    parallaxY: 0.2,
   },
   {
     link: image3,
-    parallaxY: 0.28,
+    parallaxY: 0.1,
   },
   {
     link: image4,
-    parallaxY: 0.29,
+    parallaxY: 0.2,
   },
   {
     link: image5,
-    parallaxY: 0.31,
+    parallaxY: 0.1,
   },
   {
     link: image6,
-    parallaxY: 0.34,
+    parallaxY: 0.2,
   },
   {
     link: image7,
-    parallaxY: 0.25,
+    parallaxY: 0.1,
   },
   {
     link: image8,
-    parallaxY: 0.33,
+    parallaxY: 0.2,
   },
 ]
 

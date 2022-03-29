@@ -32,10 +32,23 @@ export const HeadWrap = styled.div`
   justify-content: center;
 `
 
-export const TextWrap = styled.h1`
+export const TextWrap = styled.div`
   height: 10vh;
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 55%;
+
+  @media screen and (orientation: landscape) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+  }
+`
+
+export const WordWrap = styled.h1` 
+text-align: center;
+  
 `
 
 export const FadeUpIn = styled.div`
