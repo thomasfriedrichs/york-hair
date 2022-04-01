@@ -1,8 +1,12 @@
 import React from 'react';
 import { 
-  AboutWrap, Img, OpaqueContainerLeft, OpaqueContainerRight 
+  AboutWrap, 
+  Img, 
+  OpaqueContainerLeft, 
+  OpaqueContainerRight 
 } from './AboutStyles';
 import { Bio } from './../../data/about/index';
+import rollie from '../../data/images/Rollie.jpg';
 
 const About = ({id}) => {
   return (
@@ -11,7 +15,7 @@ const About = ({id}) => {
         {Bio.text}
       </OpaqueContainerLeft>
       <OpaqueContainerRight>
-        <Img/>
+        <Img src={rollie}/>
       </OpaqueContainerRight>
     </AboutWrap>
   );

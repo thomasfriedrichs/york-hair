@@ -24,7 +24,7 @@ export const OpaqueContainerLeft = styled.div`
   height: fit-content;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 60px;
+  padding: 1%;
   box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
     rgba(0, 0, 0, 0.1) 10px 10px 20px, 
     rgba(0, 0, 0, 0.06) 5px 5px 10px;
@@ -46,11 +46,14 @@ export const OpaqueContainerRight = styled.div`
   height: fit-content;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 60px;
+  padding: 1%;
   box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
     rgba(0, 0, 0, 0.1) 10px 10px 20px, 
     rgba(0, 0, 0, 0.06) 5px 5px 10px;
   position: relative;
   margin: 5%;
   margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `

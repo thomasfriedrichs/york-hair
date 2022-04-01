@@ -30,6 +30,10 @@ export const HeadWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media screen and (orientation: portrait) {
+    justify-content: space-evenly;
+  }
 `
 
 export const TextWrap = styled.div`
@@ -37,7 +41,7 @@ export const TextWrap = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 55%;
+  gap: 20%;
 
   @media screen and (orientation: landscape) {
     flex-direction: row;
@@ -46,9 +50,67 @@ export const TextWrap = styled.div`
   }
 `
 
-export const WordWrap = styled.h1` 
-text-align: center;
-  
+export const Accordion = styled.div` 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.6s ease-in-out;
+`
+
+export const PhoneNumber = styled.h4` 
+  text-align: center;
+  width: 100%;
+  max-height: ${(props) => (props.open ? '100%' : '0')};
+  overflow: hidden;
+`
+
+export const Link = styled.a`
+  color: black !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+`
+
+export const FlexWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+` 
+
+
+export const WordWrap = styled.h1`
+  text-align: center;
+`
+
+export const BookingWord = styled.h4`
+  text-align: center;
+`
+
+export const Button = styled.button` 
+  background-color: pink;
+  border: none;
+	font: inherit;
+  :hover {
+    cursor: pointer;
+  }
+`
+
+export const BookingWrap = styled.div` 
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  margin-top: 5%;
+
+  @media screen and (orientation: landscape) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+  }
 `
 
 export const FadeUpIn = styled.div`

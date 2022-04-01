@@ -1,5 +1,11 @@
 import React from 'react';
-import { AnimationWrap, LetterWrap, TextWrap, FadeUpIn, WordWrap} from './HeadStyles';
+import { 
+  AnimationWrap, 
+  LetterWrap, 
+  TextWrap, 
+  FadeUpIn, 
+  WordWrap
+} from './HeadStyles';
 
 const TextAnimation = () => {
   const roland = 'ROLAND'.split('');
