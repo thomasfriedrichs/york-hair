@@ -2,21 +2,29 @@ import React from 'react';
 import { 
   AboutWrap, 
   Img, 
-  OpaqueContainerLeft, 
-  OpaqueContainerRight 
+  OpaqueContainerText, 
+  OpaqueContainerPic,
+  P
 } from './AboutStyles';
-import { Bio } from './../../data/about/index';
+import { 
+  Bio 
+} from './../../data/about/index';
 import rollie from '../../data/images/Rollie.jpg';
 
 const About = ({id}) => {
   return (
     <AboutWrap id={id}>
-      <OpaqueContainerRight>
+      <OpaqueContainerPic>
         <Img src={rollie}/>
-      </OpaqueContainerRight>
-      <OpaqueContainerLeft>
-        {Bio.text}
-      </OpaqueContainerLeft>
+      </OpaqueContainerPic>
+      <OpaqueContainerText>
+        <P>
+          {Bio.text1}
+        </P>
+        <P>
+          {Bio.text2}
+        </P>
+      </OpaqueContainerText>
     </AboutWrap>
   );
 };

@@ -7,7 +7,10 @@ import {
 } from './ParallaxScroll';
 
 const getWindowDimensions = () => {
-  const { innerWidth: width, innerHeight: height } =  window;
+  const { 
+    innerWidth: width, 
+    innerHeight: height 
+  } =  window;
   console.log('INNER_WIDTH:', width);
   return {
     width,

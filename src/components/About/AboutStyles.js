@@ -15,7 +15,7 @@ export const Img = styled.img`
   height: 80%;
 `
 
-export const OpaqueContainerLeft = styled.div`
+export const OpaqueContainerText = styled.div`
   background-image: linear-gradient(
     to bottom right,
     rgba(255, 255, 255, 0.2) 0%,
@@ -29,7 +29,8 @@ export const OpaqueContainerLeft = styled.div`
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   padding: 1%;
-  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+  box-shadow: 
+    rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
     rgba(0, 0, 0, 0.1) 10px 10px 20px, 
     rgba(0, 0, 0, 0.06) 5px 5px 10px;
   position: relative;
@@ -37,7 +38,7 @@ export const OpaqueContainerLeft = styled.div`
   margin-bottom: 10%;
 `
 
-export const OpaqueContainerRight = styled.div`
+export const OpaqueContainerPic = styled.div`
   background-image: linear-gradient(
     to bottom right,
     rgba(255, 255, 255, 0.2) 0%,
@@ -51,7 +52,8 @@ export const OpaqueContainerRight = styled.div`
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   padding: 1%;
-  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+  box-shadow: 
+    rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
     rgba(0, 0, 0, 0.1) 10px 10px 20px, 
     rgba(0, 0, 0, 0.06) 5px 5px 10px;
   position: relative;
@@ -60,4 +62,8 @@ export const OpaqueContainerRight = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+`
+
+export const P = styled.div` 
+  text-indent: 2vw;
 `
