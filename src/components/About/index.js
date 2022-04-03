@@ -11,12 +11,12 @@ import rollie from '../../data/images/Rollie.jpg';
 const About = ({id}) => {
   return (
     <AboutWrap id={id}>
-      <OpaqueContainerLeft>
-        {Bio.text}
-      </OpaqueContainerLeft>
       <OpaqueContainerRight>
         <Img src={rollie}/>
       </OpaqueContainerRight>
+      <OpaqueContainerLeft>
+        {Bio.text}
+      </OpaqueContainerLeft>
     </AboutWrap>
   );
 };

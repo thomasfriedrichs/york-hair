@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from 'react'; 
 import images from './../../data/images';
 import Card from './../Card';
 import ParallaxScroll from './../ParallaxScroll';

@@ -1,9 +1,13 @@
-import styled from "styled-components";
+import styled from "styled-components"; 
 
 export const AboutWrap = styled.div` 
   height: 100vh;
   display: flex;
   justify-content: center;
+  
+    @media screen and ( orientation: portrait ){
+      flex-direction: column;
+    }
 `
 
 export const Img = styled.img` 
