@@ -66,4 +66,6 @@ export const OpaqueContainerPic = styled.div`
 
 export const P = styled.div` 
   text-indent: 2vw;
+  line-height: 3.5vh;
+  font-weight: 2em;
 `
