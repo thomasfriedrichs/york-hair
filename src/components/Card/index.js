@@ -2,13 +2,12 @@ import React from 'react';
 
 import {
   CardContainer,
-  CardImage,
 } from './CardStyles';
 
-const Card = ({ image }) => {
+const Card = ({ children }) => {
   return (
     <CardContainer>
-      <CardImage src={image} />
+      {children}
     </CardContainer>
   )
 }
