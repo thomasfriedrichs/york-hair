@@ -6,7 +6,8 @@ import {
   GalleryContainer,
   GalleryGrid,
   GalleryRow,
-  CardWrapper,
+  GalleryRowWrapper,
+  GalleryImage,
 } from './GalleryStyles';
 
 const Gallery = ({ id }) => {
@@ -16,23 +17,19 @@ const Gallery = ({ id }) => {
         {images && images.map((image, index) => {
           return index % 2 === 0 ?
             <GalleryRow key={index}>
-              <CardWrapper>
-                <ParallaxScroll parallaxY={image.parallaxY}>
-                  <Card
-                    image={image.link}
-                  />
-                </ParallaxScroll>
-              </CardWrapper>
+              <GalleryRowWrapper>
+                <GalleryImage>
+                  <img src={image.link} />
+                </GalleryImage>
+              </GalleryRowWrapper>
             </GalleryRow>
           :
             <GalleryRow key={index}>
-              <CardWrapper reverse={true}>
-                <ParallaxScroll parallaxY={image.parallaxY}>
-                  <Card
-                    image={image.link}
-                  />
-                </ParallaxScroll>
-              </CardWrapper>
+              <GalleryRowWrapper reverse={true}>
+                <GalleryImage>
+                  <img src={image.link} />               
+                </GalleryImage>
+              </GalleryRowWrapper>
             </GalleryRow>
         })}
       </GalleryGrid>

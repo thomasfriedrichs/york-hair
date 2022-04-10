@@ -7,12 +7,12 @@ export const NavWrap = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 10vh;
+  max-height: 5em;
 
   @media screen and (orientation: landscape) {
     flex-direction: column;
     gap: 3vh;
-    height: 100vh;
+    /* height: 100vh; */
   }
 `
 export const LogoWrap = styled.div` 
@@ -20,7 +20,7 @@ export const LogoWrap = styled.div`
 
   @media screen and (orientation: landscape) {
     width: 100%;
-    height: 30vh;
+    /* height: 30vh; */
   }
 `
 

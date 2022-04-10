@@ -24,14 +24,16 @@ const FadeInUpAnimationRight = keyframes`
   }
 `;
 
-export const HeadWrap = styled.div`
-  height: 100vh;
-  z-index: 0;
+export const HeadWrap = styled.section`
+  min-height: 100vh;
+  /* z-index: 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* margin-bottom: 100em; */
 
   @media screen and (orientation: portrait) {
+    /* height: 150vh; */
     justify-content: space-evenly;
   }
 `

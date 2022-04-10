@@ -1,10 +1,14 @@
 import React from 'react';
+
+import Card from './../Card';
 import { 
   AboutWrap, 
-  Img, 
+  AboutImgFigure, 
   OpaqueContainerText, 
   OpaqueContainerPic,
-  P
+  AboutText,
+  AboutTextWrap,
+  AboutImg
 } from './AboutStyles';
 import { 
   Bio 
@@ -14,17 +18,19 @@ import rollie from '../../data/images/Rollie.jpg';
 const About = ({id}) => {
   return (
     <AboutWrap id={id}>
-      <OpaqueContainerPic>
-        <Img src={rollie}/>
-      </OpaqueContainerPic>
-      <OpaqueContainerText>
-        <P>
-          {Bio.text1}
-        </P>
-        <P>
-          {Bio.text2}
-        </P>
-      </OpaqueContainerText>
+      <AboutImgFigure>
+        <AboutImg src={rollie} />
+      </AboutImgFigure>
+      <AboutTextWrap>
+        <Card>
+          <AboutText>
+            <p>{Bio.text1}</p>
+          </AboutText>
+          <AboutText>
+            <p>{Bio.text2}</p>
+          </AboutText>
+        </Card>
+      </AboutTextWrap>
     </AboutWrap>
   );
 };

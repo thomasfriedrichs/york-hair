@@ -1,20 +1,17 @@
 import styled from 'styled-components';
 import  {FaInstagramSquare}  from 'react-icons/fa';
 
-export const FooterWrap = styled.div` 
-  height: 10vh;
-  width: 75vw;
+export const FooterWrap = styled.footer`
+  height: 10em;
+  width: 100%;
   background-color: pink;
-  text-align: center;
-
-  @media screen and (orientation: portrait) {
-    width: 100vw;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const IgIcon = styled(FaInstagramSquare)` 
-  height: 5vh;
-  width: 5vw;
+  font-size: 3rem;
 `
 
 export const A = styled.a` 

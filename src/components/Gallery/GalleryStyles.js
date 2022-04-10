@@ -5,7 +5,8 @@ export const GalleryContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 15em;
+  /* padding-top: 15em; */
+  padding: 2em 0;
 `;
 
 export const GalleryGrid = styled.div`
@@ -19,8 +20,24 @@ export const GalleryRow = styled.div`
   justify-content: center;
 `;  
 
-export const CardWrapper = styled.div`
-  width: 70%;
+export const GalleryRowWrapper = styled.div`
+  flex: 1;
   display: flex;
-  justify-content: ${ props => props.reverse ? 'flex-end' : 'flex-start' };
+  justify-content: center;
+
+  @media screen and (min-width: 600px) {
+    justify-content: ${props => props.reverse ? 'flex-end' : 'flex-start' };
+  }
+`
+
+export const GalleryImage = styled.figure`
+  flex: 1;
+
+  > img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 600px) {
+    flex: 0.5;
+  }
 `;
