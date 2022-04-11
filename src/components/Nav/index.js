@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
   Link, 
   animateScroll as scroll 
 } from "react-scroll";
+
 import { 
   NavWrap,
+  NavContainer,
   ItemWrap,
-  Item,
+  // Item,
   LogoWrap,
   Logo,
   SelectionWrap
@@ -15,9 +17,9 @@ import navItems from './../../data/navItems/index';
 import logo from '../../data/LogoDesign/logo.jpg';
 
 const Nav = () => {
-
+  
   return (
-    <NavWrap>
+    <NavContainer>
       <LogoWrap>
         <Logo src={logo}/>
       </LogoWrap>
@@ -31,15 +33,15 @@ const Nav = () => {
                 duration={300}
                 spy={true}
                 exact='true'
-                offset={78}
+                offset={0}
               >
-                <Item>{item.title}</Item>
+                {item.title}
               </Link>
             </ItemWrap>
           )
         })}
       </SelectionWrap>
-    </NavWrap>
+    </NavContainer>
   )
 }
 

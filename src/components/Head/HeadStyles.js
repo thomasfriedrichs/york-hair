@@ -25,7 +25,7 @@ const FadeInUpAnimationRight = keyframes`
 `;
 
 export const HeadWrap = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
