@@ -4,11 +4,10 @@ export const AboutContainer = styled.section`
   display: flex;
   min-height: 100vh;
   justify-content: center;
-  /* padding-top: 5%; */
   
-    @media screen and ( orientation: portrait ){
-      flex-direction: column;
-    }
+  @media screen and ( orientation: portrait ){
+    flex-direction: column;
+  }
 `
 
 export const AboutWrap = styled.div`
@@ -20,7 +19,6 @@ export const AboutWrap = styled.div`
 export const AboutTextWrap = styled.div` 
   display: flex;
   flex-direction: column;
-  /* padding: 0 0.5em; */
   flex: 1;
   justify-content: center;
 `
@@ -45,7 +43,6 @@ export const AboutImg = styled.img`
 
 export const AboutText = styled.div` 
   text-indent: 2em;
-  /* line-height: 3.5vh; */
   font-weight: 5em;
   background: transparent;
 `

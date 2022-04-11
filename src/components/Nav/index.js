@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { 
   Link, 
   animateScroll as scroll 
 } from "react-scroll";
 
 import { 
-  NavWrap,
   NavContainer,
   ItemWrap,
-  // Item,
   LogoWrap,
   Logo,
   SelectionWrap

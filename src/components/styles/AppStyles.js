@@ -13,26 +13,15 @@ export const NavWrapper = styled.div`
   height: 100%;
   width: 16em;
   position: fixed;
-  z-index: 1; /* hey bish what's good */
+  z-index: 1;
   top: 0;
   left: 0;
   background-color: #9bd8db;
-<<<<<<< HEAD
-  height: 10vh;
-  width: 100vw;
-  margin: 0;
-  z-index: 100;
-
-  @media screen and (orientation: landscape) {
-    width: 25vw;
-  }
-`
-
-export const GridBodyWrap = styled.div` 
-  display: block;
-=======
   overflow-x: hidden;
   padding-top: 0em;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @media screen and (max-width: 768px) {
     position: relative;
@@ -44,37 +33,9 @@ export const BodyWrapper = styled.div`
   flex: 1;
   margin-left: 16em;
   padding: 0 2em;
->>>>>>> e754640ebaa9550724b0734b335e542a0491fb17
 
   @media screen and (max-width: 768px) {
     margin-left: 0;
     padding: 0 1em;
   }
 `;
-
-
-// export const GridNavWrap = styled.div` 
-//   position: sticky;
-//   top: 0;
-//   left: 0;
-//   background-color: #9bd8db;
-//   /* height: 10vh; */
-//   /* width: 100vw; */
-//   margin: 0;
-
-
-//   @media screen and (orientation: landscape) {
-//     /* height: 100vh; */
-//     /* width: 25vw; */
-//     width: fit-content;
-//     }
-// `
-
-// export const GridBodyWrap = styled.div` 
-//   display: block;
-
-//   @media screen and (orientation: landscape) {
-//     margin-top: 0;
-//     /* margin-left: 25vw; */
-//   }
-// `

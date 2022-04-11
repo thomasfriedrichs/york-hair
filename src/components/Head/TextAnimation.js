@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { 
   AnimationWrap, 
   LetterWrap, 
@@ -12,7 +13,6 @@ const TextAnimation = () => {
   const york = 'YORK'.split('');
   const hair = 'HAIR'.split('');
   const text = [ roland, york, hair ];
-
 
   return (
     <AnimationWrap>
@@ -39,7 +39,5 @@ const TextAnimation = () => {
     </AnimationWrap>
   );
 };
-
-
 
 export default TextAnimation;

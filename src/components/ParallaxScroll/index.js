@@ -1,7 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Head from './../Head';
-import Footer from './../Footer/index';
-import { useScrollPosition } from './../../hooks/useScrollPosition';
+import React, { 
+  useState, 
+  useEffect 
+} from 'react';
+
+import { 
+  useScrollPosition 
+} from './../../hooks/useScrollPosition';
 import {
   ParallaxContainer,
 } from './ParallaxScroll';

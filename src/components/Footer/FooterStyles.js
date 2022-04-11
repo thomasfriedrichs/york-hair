@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import  {FaInstagramSquare}  from 'react-icons/fa';
+import  { FaInstagramSquare }  from 'react-icons/fa';
 
 export const FooterWrap = styled.footer`
   height: 10em;

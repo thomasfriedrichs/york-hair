@@ -5,8 +5,6 @@ import {
   AboutContainer,
   AboutWrap, 
   AboutImgFigure, 
-  OpaqueContainerText, 
-  OpaqueContainerPic,
   AboutText,
   AboutTextWrap,
   AboutImg

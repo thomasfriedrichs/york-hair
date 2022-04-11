@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const GalleryContainer = styled.section`
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2em 0;
-  /* max-width: 75em; */
   margin: 0 auto;
 `;
 
