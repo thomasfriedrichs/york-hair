@@ -8,12 +8,11 @@ export const GridNavWrap = styled.div`
   height: 10vh;
   width: 100vw;
   margin: 0;
-
+  z-index: 100;
 
   @media screen and (orientation: landscape) {
-    height: 100vh;
     width: 25vw;
-    }
+  }
 `
 
 export const GridBodyWrap = styled.div` 
