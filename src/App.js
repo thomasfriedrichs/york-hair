@@ -6,23 +6,26 @@ import Nav from './components/Nav';
 import Gallery from './components/Gallery';
 import About from './components/About';
 import { 
-  GridBodyWrap,
-  GridNavWrap
+  ContentWraper,
+  NavWrapper,
+  BodyWrapper,
 } from './components/styles/AppStyles';
 
 const App = () => {
   return (
     <>
       <GlobalStyle/>
-      <GridNavWrap>
-        <Nav/>
-      </GridNavWrap>
-      <GridBodyWrap>
-        <Head id='head'/> 
-        <About id='about'/>
-        <Gallery id='gallery'/>
-        <Footer id='footer'/>
-      </GridBodyWrap>
+      <ContentWraper>
+        <NavWrapper>
+          <Nav/>
+        </NavWrapper>
+        <BodyWrapper>
+          <Head id='head'/> 
+          <About id='about'/>
+          <Gallery id='gallery'/>
+          <Footer id='footer'/>
+        </BodyWrapper>
+      </ContentWraper>
     </>
   );
 }

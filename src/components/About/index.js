@@ -2,6 +2,7 @@ import React from 'react';
 
 import Card from './../Card';
 import { 
+  AboutContainer,
   AboutWrap, 
   AboutImgFigure, 
   OpaqueContainerText, 
@@ -17,21 +18,23 @@ import rollie from '../../data/images/Rollie.jpg';
 
 const About = ({id}) => {
   return (
-    <AboutWrap id={id}>
-      <AboutImgFigure>
-        <AboutImg src={rollie} />
-      </AboutImgFigure>
-      <AboutTextWrap>
-        <Card>
-          <AboutText>
-            <p>{Bio.text1}</p>
-          </AboutText>
-          <AboutText>
-            <p>{Bio.text2}</p>
-          </AboutText>
-        </Card>
-      </AboutTextWrap>
-    </AboutWrap>
+    <AboutContainer id={id}>
+      <AboutWrap>
+        <AboutImgFigure>
+          <AboutImg src={rollie} />
+        </AboutImgFigure>
+        <AboutTextWrap>
+          <Card>
+            <AboutText>
+              <p>{Bio.text1}</p>
+            </AboutText>
+            <AboutText>
+              <p>{Bio.text2}</p>
+            </AboutText>
+          </Card>
+        </AboutTextWrap>
+      </AboutWrap>
+    </AboutContainer>
   );
 };
 
