@@ -25,14 +25,12 @@ const FadeInUpAnimationRight = keyframes`
 `;
 
 export const HeadWrap = styled.section`
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin-bottom: 100em; */
 
   @media screen and (orientation: portrait) {
-    /* height: 150vh; */
     justify-content: space-evenly;
   }
 `

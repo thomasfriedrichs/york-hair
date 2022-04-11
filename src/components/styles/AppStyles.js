@@ -22,6 +22,6 @@ export const GridBodyWrap = styled.div`
   @media screen and (orientation: landscape) {
     margin-top: 0;
     margin-left: 25vw;
-    }
+  }
 `
 
