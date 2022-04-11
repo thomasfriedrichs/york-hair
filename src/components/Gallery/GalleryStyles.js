@@ -5,7 +5,6 @@ export const GalleryContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding-top: 15em; */
   padding: 2em 0;
 `;
 

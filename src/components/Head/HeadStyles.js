@@ -26,7 +26,6 @@ const FadeInUpAnimationRight = keyframes`
 
 export const HeadWrap = styled.section`
   min-height: 100vh;
-  /* z-index: 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
