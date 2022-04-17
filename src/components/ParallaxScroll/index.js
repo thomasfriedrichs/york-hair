@@ -15,7 +15,6 @@ const getWindowDimensions = () => {
     innerWidth: width, 
     innerHeight: height 
   } =  window;
-  console.log('INNER_WIDTH:', width);
   return {
     width,
     height
@@ -61,6 +60,7 @@ const ParallaxScroll = ({ children, parallaxY }) => {
 
   return (
     <ParallaxContainer
+      scrollPosition={scrollPosition}
       style={{
         transform: `translateY(-${scrollPosition.scrollY / 1.1 * parallaxVal}px)`
       }}

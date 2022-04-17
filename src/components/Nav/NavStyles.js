@@ -3,16 +3,11 @@ import styled from 'styled-components';
 export const NavContainer = styled.section`
   display: flex;
   flex-direction: column;
-
-  @media screen and (max-width: 768px) {
-    min-height: 5em;
-  }
 `;
 
 export const LogoWrap = styled.div` 
-
   @media screen and (max-width: 768px) {
-    display: flex;
+    display: none;
     justify-content: center;
     width: auto;
     max-height: 10em;

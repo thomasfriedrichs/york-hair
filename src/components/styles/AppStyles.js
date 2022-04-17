@@ -24,8 +24,9 @@ export const NavWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    position: relative;
+    position: fixed;
     width: 100%;
+    height: 3em;
   }
 `;
 

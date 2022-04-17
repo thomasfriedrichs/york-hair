@@ -1,5 +1,5 @@
 import React from 'react';
-import { 
+import {
   Link, 
   animateScroll as scroll 
 } from "react-scroll";
@@ -15,7 +15,6 @@ import navItems from './../../data/navItems/index';
 import logo from '../../data/LogoDesign/logo.jpg';
 
 const Nav = () => {
-  
   return (
     <NavContainer>
       <LogoWrap>

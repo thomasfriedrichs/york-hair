@@ -135,6 +135,5 @@ export const LetterWrap = styled.span`
 
 export const AnimationWrap = styled.div` 
   width: 100%;
-  z-index: 1;
 `
 
