@@ -93,7 +93,7 @@ const BookingAnimation = () => {
             </BookingWord>
           </Button>
           <PhoneNumber open={isOpen}>
-            (425) 215-4138
+            (425) 215-4183
           </PhoneNumber>
         </Accordion>
       </BookingWrap>
